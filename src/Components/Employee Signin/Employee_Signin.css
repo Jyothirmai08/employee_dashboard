@@ -75,3 +75,97 @@
     font-weight: bold;
 }
 
+.emp_info{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+.emp_info h1{
+    background: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+.empinfo_form{
+    background: #fff;
+    padding: 3rem;
+    
+    /* height: 80vh; */
+}
+
+.emp_form{
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.empinfo_inputs{
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.empinfo_inputs .emp_span{
+    font-size: 0.7rem;
+}
+
+.empinfo_label{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.empinfo_input_field{
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.empinfo_inputs_check .empinfo_label{
+    padding-right: 1.5rem;
+}
+
+.empinfo_label_check{
+    font-size: 1.3rem;
+    font-weight: normal;
+    padding-right: 1rem;
+}
+
+.empinfo_table{
+    border-collapse: collapse;
+    
+}
+
+.empinfo_th, .empinfo_td{
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+}
+
+.employee_table{
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+}
+
+.emp_next_btn{
+    background: #1a374d;
+    color: #fff;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+
+.emp_next_btn_div{
+    width: 100%;
+    text-align: end;
+}
+
+
