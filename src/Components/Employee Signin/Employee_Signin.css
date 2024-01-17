@@ -1,0 +1,77 @@
+
+
+
+.emp_login_img{
+    width: 20%;
+}
+
+.emp_login_img img{
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.emp_login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e2f7fb;
+}
+
+.emp_loginform{
+    background: #fff;
+    padding: 3rem;
+    width: 25%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+.login_input{
+    margin-bottom: 2rem;
+}
+
+.login_label{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.input_field{
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+
+.login_btn{
+    margin: 0 1rem;
+    background: #00a3ff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.heading{
+    color: #00a3ff;
+}
+
+.span_validation{
+    color: red;
+}
+
+.password{
+    font-weight: bold;
+}
+
