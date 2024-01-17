@@ -42,6 +42,29 @@ const db = mysql.createConnection({
     })
   })
 
+  app.get('/userDetails', async (req, res) => {
+    try {
+      const query = 'SELECT ed_name, ed_mailid FROM ed_login';
+      const results = await executeQuery(query);
+  
+      res.json(results);
+    } catch (error) {
+      console.error('Error fetching user details:', error);
+      res.status(500).json({ error: 'Internal Server Error' });
+    }
+  });
+  const executeQuery = (query) => {
+    return new Promise((resolve, reject) => {
+      db.query(query, (error, results) => {
+        if (error) {
+          reject(error);
+        } else {
+          resolve(results);
+        }
+      });
+    });
+  };
+
   app.listen(8081, () => {
     console.log("listening");
   })
